@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:drawable="@drawable/ribbon_green"
+        android:drawable="@drawable/ribbon_grey"
         android:top="50dp"/>
     <item
-        android:drawable="@drawable/circle_darkbrown"
+        android:drawable="@drawable/circle_darkgrey"
         android:gravity="center"/>
     <item
-        android:drawable="@drawable/circle_lightbrown"
+        android:drawable="@drawable/circle_lightgrey"
         android:gravity="center"
         />
     <item
-        android:drawable="@drawable/star_brown"
+        android:drawable="@drawable/star_grey"
         android:gravity="center"
         />
 </layer-list>
