@@ -6,22 +6,33 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/buttonSP"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="318dp"
-        android:text="SP"
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:background="@drawable/long_button"
+        android:paddingTop="15dp"
+        android:text="Volunteer"
+        android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="359dp" />
 
-    <Button
-        android:id="@+id/buttonST"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="34dp"
-        android:text="ST"
-        app:layout_constraintStart_toStartOf="@+id/buttonSP"
-        app:layout_constraintTop_toBottomOf="@+id/buttonSP" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:background="@drawable/long_button"
+        android:paddingTop="15dp"
+        android:text="Organization"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="DuplicateIds,MissingConstraints"
+        tools:layout_editor_absoluteY="462dp" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
