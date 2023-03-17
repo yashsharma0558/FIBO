@@ -198,42 +198,17 @@
         app:layout_constraintStart_toEndOf="@+id/imageView23"
         tools:layout_editor_absoluteY="25dp" />
 
-    <ImageView
-        android:id="@+id/imageView24"
-        android:layout_width="300dp"
-        android:layout_height="40dp"
-        android:layout_marginBottom="8dp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView21"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView22"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/viewframe" />
-
-    <ImageView
-        android:id="@+id/imageView25"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintEnd_toEndOf="@+id/imageView24"
-        app:layout_constraintHorizontal_bias="0.882"
-        app:layout_constraintStart_toStartOf="@+id/imageView24"
-        app:srcCompat="@drawable/search_icon"
-        tools:layout_editor_absoluteY="80dp" />
-
     <TextView
         android:id="@+id/textView11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="14dp"
         android:text="Categories"
         android:textColor="@color/black"
         android:textSize="18dp"
         app:layout_constraintBottom_toTopOf="@+id/imageView21"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.073"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView24" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView13"
