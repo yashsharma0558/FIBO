@@ -8,23 +8,22 @@ import android.view.View;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
-    Button sp, st;
+    Button volunteer, organization;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        sp= findViewById(R.ie.buttonSP);
-        st= findViewById(R.id.buttonST);
-        sp.setOnClickListener(new View.OnClickListener() {
+        volunteer=findViewById(R.id.volunteer);
+        organization=findViewById(R.id.organization);
+        volunteer.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent= new Intent(MainActivity.this, sp_login.class);
+                Intent intent= new Intent(MainActivity.this, volunteer_login.class);
                 startActivity(intent);
-                finish();
             }
         });
-        st.setOnClickListener(new View.OnClickListener() {
+        organization.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent= new Intent(MainActivity.this, st_login.class);

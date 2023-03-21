@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class sp_login extends AppCompatActivity {
+public class volunteer_login extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
