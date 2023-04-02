@@ -41,16 +41,6 @@
         tools:layout_editor_absoluteY="56dp" />
 
     <ImageView
-        android:id="@+id/imageView49"
-        android:layout_width="405dp"
-        android:layout_height="10dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/line"
-        tools:layout_editor_absoluteY="134dp" />
-
-    <ImageView
         android:id="@+id/imageView44"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -239,37 +229,14 @@
         app:srcCompat="@drawable/box_settings" />
 
     <ImageView
-        android:id="@+id/imageView25"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toTopOf="@+id/imageView49"
-        app:layout_constraintTop_toBottomOf="@+id/imageView46"
-        app:srcCompat="@drawable/box_search"
-        tools:layout_editor_absoluteX="47dp" />
-
-    <ImageView
         android:id="@+id/imageView48"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="56dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.235"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView49"
-        app:srcCompat="@drawable/box_settings" />
-
-    <ImageView
-        android:id="@+id/imageView50"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView49"
-        app:layout_constraintEnd_toEndOf="@+id/imageView25"
-        app:layout_constraintHorizontal_bias="0.966"
-        app:layout_constraintStart_toStartOf="@+id/imageView25"
-        app:layout_constraintTop_toTopOf="@+id/imageView25"
-        app:layout_constraintVertical_bias="0.615"
-        app:srcCompat="@drawable/search_icon" />
+        app:srcCompat="@drawable/box_settings"
+        tools:layout_editor_absoluteY="124dp" />
 
     <TextView
         android:id="@+id/textView22"
