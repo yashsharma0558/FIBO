@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         organization.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent= new Intent(MainActivity.this, st_login.class);
+                Intent intent= new Intent(MainActivity.this, sp_login.class);
                 startActivity(intent);
                 finish();
             }
