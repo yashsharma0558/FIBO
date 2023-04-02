@@ -13,6 +13,13 @@
         android:theme="@style/Theme.FIBO"
         tools:targetApi="31">
         <activity
+            android:name=".volunteer_donate"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".volunteer_connect"
             android:exported="false">
             <meta-data
