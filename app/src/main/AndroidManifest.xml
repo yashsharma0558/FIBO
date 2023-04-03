@@ -27,6 +27,13 @@
                 android:value="" />
         </activity>
         <activity
+            android:name=".volunteer_login"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".volunteer_settings"
             android:exported="false" />
         <activity
@@ -43,19 +50,21 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".sp_login"
+            android:name=".volunteer_stories"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
+
         <activity
-            android:name=".sp_login"
+            android:name=".volunteer_editprofile"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
