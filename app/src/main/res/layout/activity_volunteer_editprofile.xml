@@ -70,23 +70,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editName3" />
 
-    <EditText
-        android:id="@+id/editName7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="48dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="49dp"
-        android:background="@drawable/viewframe"
-        android:drawablePadding="30dp"
-        android:ems="10"
-        android:hint="Something3"
-        android:paddingLeft="20dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editName2" />
-
     <ImageView
         android:id="@+id/profileIcon"
         android:layout_width="67dp"
@@ -99,19 +82,22 @@
 
     <TextView
         android:id="@+id/profileName"
-        android:layout_width="67dp"
-        android:layout_height="36dp"
+        android:layout_width="104dp"
+        android:layout_height="35dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="253dp"
         android:text="Yash Sharma"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="15dp"
         android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/profileIcon"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.216"
         app:layout_constraintStart_toEndOf="@+id/profileIcon"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -127,15 +113,18 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="162dp"
-        android:layout_marginTop="47dp"
+        android:layout_marginTop="92dp"
         android:layout_marginEnd="162dp"
         android:backgroundTint="#FF86A2BC"
         android:elevation="25dp"
         android:text="Save"
         app:cornerRadius="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editName7" />
+        app:layout_constraintTop_toBottomOf="@+id/editName2"
+        app:layout_constraintVertical_bias="0.103" />
 
     <EditText
         android:id="@+id/editName"
@@ -186,18 +175,6 @@
         app:layout_constraintHorizontal_bias="0.959"
         app:layout_constraintStart_toStartOf="@+id/editName2"
         app:layout_constraintTop_toTopOf="@+id/editName2" />
-
-    <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="41dp"
-        android:layout_height="29dp"
-        android:src="@drawable/editicon"
-        app:layout_constraintBottom_toBottomOf="@+id/editName7"
-        app:layout_constraintEnd_toEndOf="@+id/editName7"
-        app:layout_constraintHorizontal_bias="0.967"
-        app:layout_constraintStart_toStartOf="@+id/editName7"
-        app:layout_constraintTop_toTopOf="@+id/editName7"
-        app:layout_constraintVertical_bias="0.411" />
 
     <ImageView
         android:id="@+id/imageView7"
