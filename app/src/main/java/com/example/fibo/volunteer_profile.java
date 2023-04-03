@@ -13,6 +13,7 @@ public class volunteer_profile extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_volunteer_profile);
+        getSupportActionBar().hide();
         home= findViewById(R.id.imageView32);
         stories= findViewById(R.id.imageView33);
         connect= findViewById(R.id.imageView34);
