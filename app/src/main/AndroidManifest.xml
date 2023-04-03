@@ -27,19 +27,16 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".settings"
+            android:name=".volunteer_settings"
             android:exported="false" />
         <activity
-            android:name=".homepage"
+            android:name=".volunteer_homepage"
             android:exported="false" />
         <activity
-            android:name=".main_profile"
+            android:name=".volunteer_profile"
             android:exported="false" />
         <activity
-            android:name=".profile"
-            android:exported="false" />
-        <activity
-            android:name=".sp_signup"
+            android:name=".volunteer_signup"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"

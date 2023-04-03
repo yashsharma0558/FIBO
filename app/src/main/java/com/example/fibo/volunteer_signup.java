@@ -6,38 +6,32 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
-public class volunteer_login extends AppCompatActivity {
-    Button login, signup;
+public class volunteer_signup extends AppCompatActivity {
+    Button signup;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_volunteer_login);
+        setContentView(R.layout.activity_volunteer_signup);
         getSupportActionBar().hide();
-        login= findViewById(R.id.buttonSave);
         signup= findViewById(R.id.buttonSignUp);
-        login.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent= new Intent(volunteer_login.this, volunteer_profile.class);
-                startActivity(intent);
-                finish();
-            }
-        });
         signup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent= new Intent(volunteer_login.this, volunteer_signup.class);
+                Toast.makeText(volunteer_signup.this, "Data Inserted Successfully!!", Toast.LENGTH_SHORT).show();
+                Intent intent= new Intent(volunteer_signup.this, volunteer_login.class);
                 startActivity(intent);
                 finish();
             }
         });
+
     }
 
     @Override
     public void onBackPressed() {
         super.onBackPressed();
-        Intent intent= new Intent(this, MainActivity.class);
+        Intent intent= new Intent(volunteer_signup.this, volunteer_login.class);
         startActivity(intent);
         finish();
     }

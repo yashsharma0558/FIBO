@@ -5,12 +5,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 
-public class volunteer_connect extends AppCompatActivity {
+public class volunteer_stories extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_volunteer_connect);
+        setContentView(R.layout.activity_volunteer_stories);
         getSupportActionBar().hide();
     }
     @Override
