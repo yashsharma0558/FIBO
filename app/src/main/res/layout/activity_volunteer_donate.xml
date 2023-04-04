@@ -11,13 +11,13 @@
         android:id="@+id/textView21"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="28dp"
-        android:layout_marginEnd="176dp"
         android:text="Yash Sharma"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="18sp"
-        app:layout_constraintEnd_toStartOf="@+id/imageView44"
+        app:layout_constraintStart_toEndOf="@+id/imageView47"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
@@ -130,13 +130,13 @@
 
     <ImageButton
         android:id="@+id/viewImage"
-        android:layout_width="134dp"
-        android:layout_height="94dp"
-        android:layout_marginTop="8dp"
-        android:elevation="40dp"
+        android:layout_width="158dp"
+        android:layout_height="108dp"
+        android:layout_marginTop="24dp"
+        android:elevation="35dp"
         android:src="@drawable/addimg1"
         app:layout_constraintEnd_toEndOf="@+id/imageView4"
-        app:layout_constraintHorizontal_bias="0.457"
+        app:layout_constraintHorizontal_bias="0.488"
         app:layout_constraintStart_toStartOf="@+id/imageView4"
         app:layout_constraintTop_toBottomOf="@+id/editName5" />
 
@@ -144,14 +144,14 @@
         android:id="@+id/buttonSignUp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="28dp"
         android:backgroundTint="#FF86A2BC"
         android:elevation="45dp"
         android:text="Donate"
         app:cornerRadius="16dp"
-        app:layout_constraintEnd_toEndOf="@+id/imageView4"
-        app:layout_constraintHorizontal_bias="0.474"
-        app:layout_constraintStart_toStartOf="@+id/imageView4"
-        app:layout_constraintTop_toBottomOf="@+id/viewImage" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

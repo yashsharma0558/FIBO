@@ -5,21 +5,19 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 
-public class volunteer_donate extends AppCompatActivity {
+public class volunteer_food extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_volunteer_donate);
+        setContentView(R.layout.activity_volunteer_food);
         getSupportActionBar().hide();
     }
-
     @Override
     public void onBackPressed() {
         super.onBackPressed();
-        Intent intent = new Intent(this, volunteer_profile.class);
+        Intent intent= new Intent(this, volunteer_homepage.class);
         startActivity(intent);
         finish();
-
     }
 }

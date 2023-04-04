@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.ImageView;
 
 public class volunteer_profile extends AppCompatActivity {
-    ImageView home, stories, connect, settings, edit;
+    ImageView home, stories, connect, settings, edit, donate;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -16,6 +16,7 @@ public class volunteer_profile extends AppCompatActivity {
         getSupportActionBar().hide();
         home= findViewById(R.id.imageView32);
         stories= findViewById(R.id.imageView33);
+        donate= findViewById(R.id.imageView12);
         connect= findViewById(R.id.imageView34);
         settings= findViewById(R.id.imageView35);
         edit= findViewById(R.id.imageView14);
@@ -56,6 +57,14 @@ public class volunteer_profile extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent= new Intent(volunteer_profile.this, volunteer_editprofile.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+        donate.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent= new Intent(volunteer_profile.this, volunteer_donate.class);
                 startActivity(intent);
                 finish();
             }

@@ -37,6 +37,9 @@
             android:name=".volunteer_settings"
             android:exported="false" />
         <activity
+            android:name=".volunteer_food"
+            android:exported="false" />
+        <activity
             android:name=".volunteer_homepage"
             android:exported="false" />
         <activity
