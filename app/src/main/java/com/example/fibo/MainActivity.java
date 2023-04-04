@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        getSupportActionBar().hide();
         volunteer=findViewById(R.id.volunteer);
         organization=findViewById(R.id.organization);
         volunteer.setOnClickListener(new View.OnClickListener() {
@@ -22,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent= new Intent(MainActivity.this, volunteer_login.class);
                 startActivity(intent);
+                finish();
             }
         });
         organization.setOnClickListener(new View.OnClickListener() {
