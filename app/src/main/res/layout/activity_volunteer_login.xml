@@ -11,7 +11,7 @@
         android:id="@+id/profileName"
         android:layout_width="269dp"
         android:layout_height="45dp"
-        android:layout_marginTop="324dp"
+        android:layout_marginTop="288dp"
         android:background="@drawable/viewframesquare"
         android:drawableRight="@drawable/profile_icon_blue"
         android:drawablePadding="2dip"
@@ -19,6 +19,7 @@
         android:paddingLeft="10dp"
         android:paddingRight="20dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -26,7 +27,8 @@
         android:id="@+id/profilePassword"
         android:layout_width="269dp"
         android:layout_height="43dp"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="68dp"
+        android:inputType="textPassword"
         android:background="@drawable/viewframesquare"
         android:drawableRight="@drawable/text_visible"
         android:drawablePadding="2dip"
@@ -41,13 +43,12 @@
         android:id="@+id/buttonSave"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="52dp"
         android:backgroundTint="#FF86A2BC"
         android:elevation="25dp"
         android:text="Login"
         app:cornerRadius="16dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.489"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/profilePassword" />
 
@@ -60,7 +61,6 @@
         android:text="Sign up"
         app:cornerRadius="16dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
